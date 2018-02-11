@@ -1,0 +1,16 @@
+.AddTodoWrap {
+  width: 10rem;
+  height: 1.33333333rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.inputWrap {
+  width: 6rem;
+  height: 1.33333333rem;
+  outline: none;
+  border: none;
+}
+.buttonWrap {
+  width: 4rem;
+  height: 100 75rem;
+  cursor: pointer;
+}

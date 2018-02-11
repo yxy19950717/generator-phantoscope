@@ -1,0 +1,30 @@
+@r: 75rem;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 750/@r;
+  height: 100/@r;
+  background-color: #000;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 375/@r;
+  height: 100/@r;
+  color: #fff;
+  text-decoration: none;
+  font-size: 38/@r;
+}
+
+.linkHover {
+  .link;
+  background-color: red;
+}

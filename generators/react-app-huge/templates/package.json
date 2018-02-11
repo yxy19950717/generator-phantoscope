@@ -1,0 +1,43 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preparse-d": "NODE_ENV=development webpack --config ./config/webpack.dll.config.js",
+    "preparse-p": "NODE_ENV=production webpack --config ./config/webpack.dll.config.js",
+    "dev": "node ./config/devServer.js"
+  },
+  "author": "<%= author %>",
+  "license": "ISC",
+  "dependencies": {
+    "add-asset-html-webpack-plugin": "^2.1.2",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.4",
+    "opn": "^5.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-error-overlay": "^4.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0",
+    "webpack-bundle-analyzer": "^2.9.2",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-manifest-plugin": "^1.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "react-hot-loader": "^3.1.3",
+    "style-loader": "^0.20.1"
+  }
+}
