@@ -26,7 +26,7 @@ module.exports = class extends Generator {
   
   initializing() {
     log('green')('...[info]初始化react项目...');
-    log('green')('...[info]本项目采用redux构建...');
+    log('green')('...[info]本项目采用mobx构建...');
   }
 
   prompting() {

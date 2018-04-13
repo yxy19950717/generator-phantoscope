@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 10rem;
+  height: 1.33333333rem;
+  background-color: #000;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 1.33333333rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.50666667rem;
+}
+.linkHover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 1.33333333rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.50666667rem;
+  background-color: red;
+}
